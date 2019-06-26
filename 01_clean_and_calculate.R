@@ -1,9 +1,13 @@
+# This script pulls from a spreadsheet that compiles original CDC data from two locations:
+# https://www.cdc.gov/mmwr/pdf/wk/mm6341.pdf
+# https://www.cdc.gov/mmwr/volumes/67/wr/mm6740a3.htm#suggestedcitation
+
 library(tidyverse)
 library(janitor)
 library(readxl)
 library(naniar)
 
-#import the data file
+#import the compiled spreadsheet file
 orig_data <- read_excel("processed_data/vaccines_AK_June25.xlsx")
 
 #remove the existing calculated fields so we can remake them 
