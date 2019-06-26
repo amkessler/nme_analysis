@@ -1,1 +1,0 @@
-This folder is for storing the raw data files you obtained from the original source.  These are generally the files you would then subsequently clean and process so they're ready for your analysis. If you wind up saving the "clean" version of a dataset, put that file in the processed_data folder instead -- leave this one just for the originals.
