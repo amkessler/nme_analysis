@@ -51,7 +51,7 @@ method2_data <- method2_data %>%
   mutate(
     nme_per1000 = nme_perc * 10,
     abs_change = nme_per1000 - lag(nme_per1000),
-    relative_change_pct = round_half_up(abs_change/nme_per1000*100, 1)
+    relative_change_pct = round_half_up(((nme_per1000 - lag(nme_per1000)) / lag(nme_per1000))*100, 1) 
   )
 
 head(method2_data)
