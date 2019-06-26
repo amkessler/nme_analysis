@@ -1,6 +1,6 @@
 # This script pulls from a spreadsheet that compiles original CDC data from two locations:
 # https://www.cdc.gov/mmwr/pdf/wk/mm6341.pdf
-# https://www.cdc.gov/mmwr/volumes/67/wr/mm6740a3.htm#suggestedcitation
+# https://www.cdc.gov/mmwr/volumes/67/wr/mm6740a3.htm
 
 library(tidyverse)
 library(janitor)
