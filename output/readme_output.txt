@@ -1,0 +1,1 @@
+This folder is for putting the generated output files from the R scripts that you intend to share with other people etc. Files in this folder should be ones that are effectively overwritten with new ones each time the analyses are run.

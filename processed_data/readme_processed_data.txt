@@ -1,0 +1,1 @@
+This folder is for storing data files you have cleaned and processed in some way to use in the analysis. Generally this will be done by cleaning data files contained in the raw_data folder and then putting the new, ready-to-roll files here to use for the analysis.

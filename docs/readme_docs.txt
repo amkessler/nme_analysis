@@ -1,0 +1,1 @@
+This folder is for putting documents (non-data files) related to the project

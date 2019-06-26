@@ -1,0 +1,1 @@
+This folder is a place to store R functions you need for the project but that you don't want cluttering up your regular R scripts in the main directory. If that's the case you can save the code with the functions here and call them from your analysis files.
